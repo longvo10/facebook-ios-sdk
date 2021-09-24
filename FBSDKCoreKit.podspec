@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'FBSDKCoreKit'
-  s.version      = '9.3.1'
+  s.version      = '9.3.2'
   s.summary      = 'Official Facebook SDK for iOS to access Facebook Platform core features'
 
   s.description  = <<-DESC
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
     tag: "v#{s.version}"
   }
 
-  s.ios.weak_frameworks = 'Accelerate', 'Accounts', 'AdSupport', 'Social', 'Security', 'StoreKit', 'QuartzCore', 'CoreGraphics', 'UIKit', 'Foundation', 'AudioToolbox'
+  s.ios.weak_frameworks = 'Accelerate', 'Accounts', 'Social', 'Security', 'StoreKit', 'QuartzCore', 'CoreGraphics', 'UIKit', 'Foundation', 'AudioToolbox'
   s.tvos.weak_frameworks = 'CoreLocation', 'Security', 'QuartzCore', 'CoreGraphics', 'UIKit', 'Foundation', 'AudioToolbox'
 
   s.default_subspecs = 'Core', 'Basics'

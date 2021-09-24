@@ -1392,8 +1392,6 @@
 		F9A06DD42510FB0F007E6386 /* FBSDKAppEventsConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A06DCE2510FB0F007E6386 /* FBSDKAppEventsConfigurationManager.m */; };
 		F9A06DD52510FB0F007E6386 /* FBSDKAppEventsConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A06DCE2510FB0F007E6386 /* FBSDKAppEventsConfigurationManager.m */; };
 		F9A06DD62510FB0F007E6386 /* FBSDKAppEventsConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A06DCE2510FB0F007E6386 /* FBSDKAppEventsConfigurationManager.m */; };
-		F9A18071252150610062E634 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A18062252150610062E634 /* AdSupport.framework */; };
-		F9A180732521506C0062E634 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A180722521506C0062E634 /* AdSupport.framework */; };
 		F9A80C9E237D02860019D7E0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A80C9D237D02860019D7E0 /* Accelerate.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F9CBE51124E085CD0097B442 /* FBSDKSKAdNetworkReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CBE50F24E085CD0097B442 /* FBSDKSKAdNetworkReporter.h */; };
 		F9CBE51224E085CD0097B442 /* FBSDKSKAdNetworkReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CBE51024E085CD0097B442 /* FBSDKSKAdNetworkReporter.m */; };
@@ -2211,7 +2209,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9FFE01F2252D66E007B2346 /* libz.tbd in Frameworks */,
-				F9A18071252150610062E634 /* AdSupport.framework in Frameworks */,
 				4AF47D131F424A8700A57A67 /* CoreImage.framework in Frameworks */,
 				8131FB461D261DED000350FF /* CoreGraphics.framework in Frameworks */,
 				8131FB4A1D261E06000350FF /* UIKit.framework in Frameworks */,
@@ -2223,7 +2220,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9A80C9E237D02860019D7E0 /* Accelerate.framework in Frameworks */,
-				F9A180732521506C0062E634 /* AdSupport.framework in Frameworks */,
 				C52C02ED2315039400F30E2A /* WebKit.framework in Frameworks */,
 				F9FFE01D2252D666007B2346 /* libz.tbd in Frameworks */,
 				F96ADE7A21E6ABB400F6043F /* StoreKit.framework in Frameworks */,
